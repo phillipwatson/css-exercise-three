@@ -10,35 +10,37 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 55%;
-  background-color: #CDCEDB;
-
+  width: 420px;
 }
 
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
-  width: 55%;
+  width: 420px;
   background-color: #000
 }
 
 .restaurant-list {
   padding-top: 50px;
+  background-color: #E0DFE0;
 }
 
 .arrow{
   float: right;
-  display: inline-block;
-  margin-top: -2em;
 }
 
-.location {
-  padding: 3%;
-  width: 100%;
+.content{
+  display: inline-block;
 }
+.location {
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+
 .location:hover{
-  background-color: lightgreen;
+  background-color: darkgray;
 }
 
 h3{
@@ -48,13 +50,4 @@ h3{
 h1{
   font-size: 18px;
   font-weight: 600;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0px;
-    border-top: 1px solid #000;
-    margin: 1em 0;
-    padding: 0;
 }
